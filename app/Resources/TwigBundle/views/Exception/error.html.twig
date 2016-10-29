@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="{{ _charset }}" />
+    <title>Une erreur est survenue: {{ status_text }}</title>
+</head>
+<body>
+<h1>Oops! Une erreur est survenue</h1>
+<h2>Le serveur a renvoyé une "{{ status_code }} {{ status_text }}".</h2>
+
+<div>
+    Quelque chose est cassé. S'il vous plaît laissez-nous savoir ce que vous faisiez lorsque cette erreur est survenue.
+    Nous allons y remédier dès que possible. Désolé pour la gêne occasionnée.
+</div>
+</body>
+</html>
